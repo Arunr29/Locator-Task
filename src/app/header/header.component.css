@@ -1,0 +1,26 @@
+nav{
+  background-color: #1F2C58;
+  color: #ffff;
+}
+
+nav ul {
+  display: flex;
+  padding: 20px 10px 10px 10px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+nav ul li a:active,
+nav ul li a.active{
+  color: #E82070;
+}
