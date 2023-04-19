@@ -9,14 +9,24 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule} from '@angular/common/http';
 import { HeaderComponent } from './header/header.component';
 import { UserComponent } from './user/user.component';
-import { AdminComponent } from './admin/admin.component'
+import { AdminComponent } from './admin/admin.component';
+import { AdminNavComponent } from './admin-nav/admin-nav.component';
+import { EligibilityTableComponent } from './eligibility-table/eligibility-table.component';
+import { EntranceTableComponent } from './entrance-table/entrance-table.component';
+import { JobEntranceTableComponent } from './job-entrance-table/job-entrance-table.component';
+import { JobDetailsTableComponent } from './job-details-table/job-details-table.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     UserComponent,
-    AdminComponent
+    AdminComponent,
+    AdminNavComponent,
+    EligibilityTableComponent,
+    EntranceTableComponent,
+    JobEntranceTableComponent,
+    JobDetailsTableComponent,
   ],
   imports: [
     BrowserModule,

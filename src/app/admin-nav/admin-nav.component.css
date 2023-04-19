@@ -1,0 +1,39 @@
+nav{
+  background-color: #263361;
+  color: #ffff;
+  position: absolute;
+  top: 8%;
+  left: 0;
+  width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 10px 10px 10px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 0 10px;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: white;
+
+}
+
+nav ul li a:active,
+nav ul li a.active{
+  color: #E82070;
+}
+
+section {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+}
+

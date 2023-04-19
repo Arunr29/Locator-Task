@@ -1,0 +1,27 @@
+<nav>
+  <ul>
+    <li routerLinkActive="active" class="btn-active" (click)="selectEligibility()"> Job-eligibility-table  </li>
+    <li routerLinkActive="active" (click)="selectExamEntrance()">Exam-entrance-table</li>
+    <li routerLinkActive="active" (click)="selectJobDetails()">Job-details-table-table</li>
+    <li routerLinkActive="active" (click)="selectJobEntrance()">Job-entrance-Table</li>
+  </ul>
+</nav>
+<section>
+  <div class="job_eligibility" *ngIf="eligibility">
+    <app-eligibility-table></app-eligibility-table>
+  </div>
+
+  <div class="job_eligibility" *ngIf="examEntrance">
+    <app-entrance-table></app-entrance-table>
+  </div>
+
+  <div class="job_eligibility" *ngIf="jobDetails">
+    <app-job-details-table></app-job-details-table>
+  </div>
+
+  <div class="job_eligibility" *ngIf="jobEntrance">
+    <app-job-entrance-table></app-job-entrance-table>
+  </div>
+</section>
+
+
